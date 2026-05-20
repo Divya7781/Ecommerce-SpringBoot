@@ -218,8 +218,10 @@ razorpay.secret=your_secret
 ```
 ---
 
+---
 # 📦 Maven Dependencies
 
+```
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
@@ -257,7 +259,8 @@ razorpay.secret=your_secret
     <artifactId>razorpay-java</artifactId>
     <version>1.4.4</version>
 </dependency>
-
+```
+---
 
 # ▶️ Running the Project
 
