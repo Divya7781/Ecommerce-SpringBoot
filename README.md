@@ -149,9 +149,15 @@ src/main/java/com/ecommerce
 
 # ⚙️ Setup Instructions
 
+---
+
 ## ✅ Step 1: Clone Repository
 
+```bash
 git clone https://github.com/yourusername/ecommerce-project.git
+```
+
+---
 
 ## ✅ Step 2: Open Project
 
@@ -162,14 +168,22 @@ Open project in:
 - IntelliJ IDEA
 - VS Code
 
+---
+
 ## ✅ Step 3: Configure MySQL
 
 Create database:
 
+```sql
 CREATE DATABASE ecommerce;
+```
 
+---
+
+---
 ## ✅ Step 4: Configure application.properties
 
+```
 spring.application.name=Ecommerce_project
 
 server.port=8080
@@ -201,7 +215,8 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 # Razorpay
 razorpay.key=your_key
 razorpay.secret=your_secret
-
+```
+---
 
 # 📦 Maven Dependencies
 
