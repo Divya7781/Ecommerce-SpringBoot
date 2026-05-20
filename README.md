@@ -79,6 +79,7 @@ This project is designed to simulate a real-world e-commerce backend system.
 
 # 📁 Project Structure
 
+```
 src/main/java/com/ecommerce
 
 ├── controller
@@ -143,6 +144,7 @@ src/main/java/com/ecommerce
 │   └── RazorpayConfig.java
 
 └── EcommerceProjectApplication.java
+```
 
 
 # ⚙️ Setup Instructions
