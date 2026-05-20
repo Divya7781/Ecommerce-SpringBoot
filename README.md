@@ -14,7 +14,7 @@ This project is a complete E-Commerce Backend Application developed using:
 - Docker
 - Java Mail Sender
 
-  The application provides REST APIs for managing:
+The application provides REST APIs for managing:
 
 - Categories
 - Products
@@ -27,4 +27,4 @@ This project is a complete E-Commerce Backend Application developed using:
 - Payments
 - Email Sending
 
-  This project is designed to simulate a real-world e-commerce backend system.
+This project is designed to simulate a real-world e-commerce backend system.
