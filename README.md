@@ -592,3 +592,60 @@ http://localhost:8080/v3/api-docs
 
 
 
+
+---
+
+# 🔍 Search, Pagination & Sorting
+
+## 📌 Example Request
+
+```http
+GET /api/products/search?keyword=phone&page=0&size=5&sortBy=price
+```
+
+---
+
+## 📋 Query Parameters
+
+| Parameter | Description |
+|----------|-------------|
+| `keyword` | Product search keyword |
+| `page` | Page number |
+| `size` | Records per page |
+| `sortBy` | Sorting field |
+
+---
+
+## ✅ Example Response
+
+```json
+{
+  "content": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "price": 79999
+    }
+  ],
+  "pageNumber": 0,
+  "pageSize": 5,
+  "totalElements": 20,
+  "totalPages": 4
+}
+```
+
+---
+
+## 🚀 Supported Sorting Fields
+
+- `price`
+- `name`
+- `createdAt`
+
+---
+
+## 📌 Notes
+
+- Pagination starts from `0`
+- `size` controls number of records per page
+- `sortBy` can be changed dynamically
