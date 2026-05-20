@@ -293,13 +293,6 @@ http://localhost:8080/v3/api-docs
 
 
 
-# 🚀 E-Commerce Backend API
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Express.js-API-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/MongoDB-Database-darkgreen?style=for-the-badge">
-</p>
 
 ---
 
