@@ -290,3 +290,82 @@ http://localhost:8080/swagger-ui/index.html
 http://localhost:8080/v3/api-docs
 ```
 ---
+
+
+
+# 🚀 E-Commerce Backend API
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Express.js-API-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/MongoDB-Database-darkgreen?style=for-the-badge">
+</p>
+
+---
+
+# 📌 API Documentation
+
+<details>
+<summary>📁 Category APIs</summary>
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/categories` | Add Category |
+| GET | `/api/categories` | Get All Categories |
+| GET | `/api/categories/{id}` | Get Category By Id |
+| DELETE | `/api/categories/{id}` | Delete Category |
+
+</details>
+
+---
+
+<details>
+<summary>📱 Product APIs</summary>
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/products` | Add Product |
+| GET | `/api/products` | Get All Products |
+| GET | `/api/products/{id}` | Get Product By Id |
+| DELETE | `/api/products/{id}` | Delete Product |
+| GET | `/api/products/search` | Search Products |
+
+</details>
+
+---
+
+<details>
+<summary>👤 User APIs</summary>
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/users/register` | Register User |
+| POST | `/api/users/login` | User Login |
+| GET | `/api/users` | Get All Users |
+
+</details>
+
+---
+
+<details>
+<summary>🛒 Cart APIs</summary>
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/cart` | Add To Cart |
+| GET | `/api/cart/{userId}` | Get User Cart |
+| DELETE | `/api/cart/{id}` | Remove Cart Item |
+
+</details>
+
+---
+
+<details>
+<summary>💳 Payment APIs</summary>
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/payment/create-order` | Create Razorpay Order |
+
+</details>
+
