@@ -28,3 +28,21 @@ The application provides REST APIs for managing:
 - Email Sending
 
 This project is designed to simulate a real-world e-commerce backend system.
+
+
+# 🚀 Features
+
+## ✅ User Features
+
+- User Registration
+- User Login
+- Product Browsing
+- Product Search
+- Pagination & Sorting
+- Add to Cart
+- Wishlist Management
+- Place Orders
+- Add Reviews & Ratings
+- Upload Product Images
+- Email Notifications
+- Online Payment Integration
