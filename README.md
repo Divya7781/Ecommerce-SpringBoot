@@ -262,18 +262,20 @@ razorpay.secret=your_secret
 ```
 ---
 
+---
 # ▶️ Running the Project
 
 ## ✅ Run Application
 
 Run:
-
+```
 EcommerceProjectApplication.java
-
+```
 OR
-
+```
 mvn spring-boot:run
-
+```
+---
 
 # 📖 Swagger Documentation
 
