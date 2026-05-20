@@ -221,7 +221,7 @@ razorpay.secret=your_secret
 ---
 # 📦 Maven Dependencies
 
-```
+```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-web</artifactId>
