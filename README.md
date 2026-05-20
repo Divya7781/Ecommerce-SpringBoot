@@ -294,71 +294,301 @@ http://localhost:8080/v3/api-docs
 
 
 
----
-
-# 📌 API Documentation
-
-<details>
-<summary>📁 Category APIs</summary>
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/categories` | Add Category |
-| GET | `/api/categories` | Get All Categories |
-| GET | `/api/categories/{id}` | Get Category By Id |
-| DELETE | `/api/categories/{id}` | Delete Category |
-
-</details>
+# 📌 API Endpoints
 
 ---
 
-<details>
-<summary>📱 Product APIs</summary>
+# 📁 Category APIs
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/products` | Add Product |
-| GET | `/api/products` | Get All Products |
-| GET | `/api/products/{id}` | Get Product By Id |
-| DELETE | `/api/products/{id}` | Delete Product |
-| GET | `/api/products/search` | Search Products |
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
 
-</details>
+<tr>
+<td>POST</td>
+<td>/api/categories</td>
+<td>Add Category</td>
+</tr>
 
----
+<tr>
+<td>GET</td>
+<td>/api/categories</td>
+<td>Get All Categories</td>
+</tr>
 
-<details>
-<summary>👤 User APIs</summary>
+<tr>
+<td>GET</td>
+<td>/api/categories/{id}</td>
+<td>Get Category By Id</td>
+</tr>
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/users/register` | Register User |
-| POST | `/api/users/login` | User Login |
-| GET | `/api/users` | Get All Users |
-
-</details>
-
----
-
-<details>
-<summary>🛒 Cart APIs</summary>
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/cart` | Add To Cart |
-| GET | `/api/cart/{userId}` | Get User Cart |
-| DELETE | `/api/cart/{id}` | Remove Cart Item |
-
-</details>
+<tr>
+<td>DELETE</td>
+<td>/api/categories/{id}</td>
+<td>Delete Category</td>
+</tr>
+</table>
 
 ---
 
-<details>
-<summary>💳 Payment APIs</summary>
+# 📱 Product APIs
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/api/payment/create-order` | Create Razorpay Order |
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
 
-</details>
+<tr>
+<td>POST</td>
+<td>/api/products</td>
+<td>Add Product</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/products</td>
+<td>Get All Products</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/products/{id}</td>
+<td>Get Product By Id</td>
+</tr>
+
+<tr>
+<td>DELETE</td>
+<td>/api/products/{id}</td>
+<td>Delete Product</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/products/search</td>
+<td>Search Products</td>
+</tr>
+</table>
+
+---
+
+# 👤 User APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/users/register</td>
+<td>Register User</td>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/users/login</td>
+<td>User Login</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/users</td>
+<td>Get All Users</td>
+</tr>
+</table>
+
+---
+
+# 🛒 Cart APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/cart</td>
+<td>Add To Cart</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/cart/{userId}</td>
+<td>Get User Cart</td>
+</tr>
+
+<tr>
+<td>DELETE</td>
+<td>/api/cart/{id}</td>
+<td>Remove Cart Item</td>
+</tr>
+</table>
+
+---
+
+# 📦 Order APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/orders</td>
+<td>Place Order</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/orders</td>
+<td>Get All Orders</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/orders/user/{id}</td>
+<td>Get User Orders</td>
+</tr>
+
+<tr>
+<td>PUT</td>
+<td>/api/orders/{id}</td>
+<td>Update Order Status</td>
+</tr>
+</table>
+
+---
+
+# ❤️ Wishlist APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/wishlist</td>
+<td>Add Wishlist</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/wishlist/{userId}</td>
+<td>Get Wishlist</td>
+</tr>
+
+<tr>
+<td>DELETE</td>
+<td>/api/wishlist/{id}</td>
+<td>Remove Wishlist</td>
+</tr>
+</table>
+
+---
+
+# ⭐ Review APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/reviews</td>
+<td>Add Review</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/reviews/{productId}</td>
+<td>Get Reviews</td>
+</tr>
+
+<tr>
+<td>GET</td>
+<td>/api/reviews/average/{productId}</td>
+<td>Average Rating</td>
+</tr>
+
+<tr>
+<td>DELETE</td>
+<td>/api/reviews/{id}</td>
+<td>Delete Review</td>
+</tr>
+</table>
+
+---
+
+# 🖼️ Upload APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/upload</td>
+<td>Upload Image</td>
+</tr>
+</table>
+
+---
+
+# 📧 Email APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/email</td>
+<td>Send Email</td>
+</tr>
+</table>
+
+---
+
+# 💳 Payment APIs
+
+<table>
+<tr>
+<th>Method</th>
+<th>Endpoint</th>
+<th>Description</th>
+</tr>
+
+<tr>
+<td>POST</td>
+<td>/api/payment/create-order</td>
+<td>Create Razorpay Order</td>
+</tr>
+</table>
+
+
 
